@@ -24,8 +24,9 @@ public class ${_cname} {
 		&& ('createdBy' != prop.name) 
 		&& ('createdDate' != prop.name) 
 		&& ('updatedBy' != prop.name) 
-		&& ('updatedDate' != prop.name))>	
-	private ${prop.type} ${prop.name};<#if (prop.comment != '')> //${prop.comment}</#if>
+		&& ('updatedDate' != prop.name))>
+	<#if (prop.comment != '')> //${prop.comment}</#if>	
+	private ${prop.type} ${prop.name};
 	</#if>	
 	</#list>
 	

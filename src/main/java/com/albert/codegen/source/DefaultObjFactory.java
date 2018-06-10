@@ -106,7 +106,7 @@ public class DefaultObjFactory {
      */
     private void setBizkeys(Obj obj, String bizKeys)
     {
-        List<Prop> bizKeysList = new ArrayList<>();
+        List<Prop> bizKeysList = new ArrayList<Prop>();
         List<Prop> props = obj.getProps();
         if (bizKeys.contains(",")){
             String[] array = bizKeys.trim().split(",");

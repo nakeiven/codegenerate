@@ -39,7 +39,7 @@ public class ObjSqlFactory implements ObjFactory {
     private static String PRIMARYKEY = "PRIMARY KEY";
     private static String FOREIGNKEY = "FOREIGN KEY";
     
-    @Override
+   
     public Obj getObj(ArgInfo argInfo) {
         String filePath = argInfo.getSqlFilePath();
         InputStream sqlIn = CodeGenUtil.readStream(filePath);

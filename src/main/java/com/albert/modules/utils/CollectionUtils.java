@@ -39,7 +39,7 @@ public final class CollectionUtils {
      * @since Framework 1.0
      */
     public static class StringForIntegerCompare implements Comparator<String>{
-        @Override
+        
         public int compare(String arg0, String arg1) {
             int n1 = Integer.parseInt(arg0);
             int n2 = Integer.parseInt(arg1);            
@@ -59,7 +59,7 @@ public final class CollectionUtils {
      * @since Framework 1.0
      */
     public static class IntReverse implements Comparator<Integer> {
-        @Override
+       
         public int compare(Integer arg0, Integer arg1) {
             if (arg0 == arg1)
                 return 0;
