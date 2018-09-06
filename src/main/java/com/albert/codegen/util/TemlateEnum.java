@@ -18,7 +18,7 @@ package com.albert.codegen.util;
  */
 public enum TemlateEnum {
     TEMPCODEFILENAME(0,"codetemplate.ftl","entity",".java",true),
-    TEMPDAOFILENAME(1,"codedaotemplate.ftl","dao","Dao.java",true),
+    TEMPDAOFILENAME(1, "codedaotemplate.ftl","dao","Dao.java",true),
     TEMPACTIONTESTFILENAME(2,"codeactiontesttemplate.ftl","view","ActionTest.java",true),
     TEMPMAPPERFILENAME(3,"mappertemplate.ftl","mybatis","Mapper.xml",false),
     TEMPSERVICEFILENAME(4,"codeservicetemplate.ftl","service","Service.java",true),//原来是接口，现在变成了新版的servcie实现类

@@ -65,7 +65,7 @@ public class CodeGen {
      * @since DE6.0 /mfh-comn-server-modules/src/main/java/com/manfen/codegen/gentemplate.xml
      */
     public static void main(String[] args) {
-        String filePath = "/com/albert/codegen/gentemplate.xml";
+        String filePath = "/gentemplate.xml";
         startGenCode(filePath);
         System.out.println("代码成功生成完毕!");
     }

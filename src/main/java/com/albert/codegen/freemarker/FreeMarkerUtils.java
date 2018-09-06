@@ -42,7 +42,7 @@ public class FreeMarkerUtils {
             }
         }
          //设置FreeMarker的模版文件位置
-        cfg.setClassForTemplateLoading(FreeMarkerUtils.class, "");
+        cfg.setClassForTemplateLoading(FreeMarkerUtils.class, "/");
         return cfg;
     }
     

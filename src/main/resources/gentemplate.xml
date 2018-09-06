@@ -1,9 +1,9 @@
 <gen>
-<obj pck="com.cainiao.wmpiqc" className="IqcSnCollectionLog"><!-- 正确填写包名和类名 -->
+<obj pck="com.cainiao.wmsisc.common.dal" className="IscInventoryTransferOrderDetail"><!-- 正确填写包名和类名 -->
     <!--generate Type:1:SQL file;2:Metadata;3:column string;4:database; Now just implements 1 and 2.-->
 	<genType>1</genType>	
-	<sqlFilePath>/com/albert/codegen/sqlsource.sql</sqlFilePath><!-- 选项1和选项3需要,文件路径以file://开头-->
-	<description>sn序列号记录表</description><!--表的中文名 -->
+	<sqlFilePath>/sqlsource.sql</sqlFilePath><!-- 选项1和选项3需要,文件路径以file://开头-->
+	<description>库存转移明细表</description><!--表的中文名 -->
 	<tableName></tableName><!-- 选项1可以设置为null-->		
 	<bizKeys></bizKeys><!-- 业务联合主键，非物理主键；通过业务主键也可以判定数据的唯一性，可以为空。填值时可以一个或多个 ,逗号分隔-->
 	<!-- 生成代码类型:1:pojo code;2:dao; 3:action test; 4:mapper; 5:service; 6:service.impl; 
